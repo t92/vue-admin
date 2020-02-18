@@ -19,6 +19,12 @@ const myRouter = {
       meta: { title: 'My Table' }
     },
     {
+      path: 'abtn',
+      component: () => import('@/views/my-views/btn-action'),
+      name: 'abtn',
+      meta: { title: 'action-button' }
+    },
+    {
       path: 'editor',
       component: () => import('@/views/my-views/editor'),
       name: 'editor',
